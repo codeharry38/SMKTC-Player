@@ -1,0 +1,406 @@
+/* Offer CSS */
+.offer {
+  border-radius: 15px;
+  display: inline-block;
+  text-align: left;
+  text-transform: uppercase;
+  width: 100%;
+}
+.offer.light {
+  background-color: #3732fd;
+	 color: rgb(255, 255, 255);
+}
+
+.offer-body {
+  border-bottom: 1px dashed rgb(17 18 54);
+  padding: 15px 20px;
+  position: relative;
+}
+.offer-body p {
+  color: #ffffff;
+  font-size: 12px;
+  margin:0px;
+}
+.offer-body:before, .offer-body:after {
+  background-color: rgb(17 18 54);
+  border-radius: 100%;
+  content: "";
+  height: 15px;
+  position: absolute;
+  top: 100%;
+  width: 20px;
+}
+.offer-body:before {
+  left: 0;
+  transform: translate(-70%,-45%);
+}
+.offer-body:after {
+  right: 0;
+  transform: translate(70%,-45%);
+}
+.disclaimer {
+  color: #ffffff;
+    font-size: 14px;
+    font-style: italic;
+    line-height: 1.25;
+    padding: 5px 20px;
+    text-transform: none;
+}
+/* Stripe */
+
+.ElementsApp .InputElement{
+  padding:20px !important;
+  border-radius:15px !important;
+  border:1px solid red !important;
+  color:#fff !important;
+}
+
+.container--fluid{
+  width:100% !important;
+}
+.stockFullName{
+  color:#fff;
+  font-size:13px;
+}
+.gameContinue{
+  border-top:1px solid #212477;
+  background:#111236 !important;
+}
+.headerColorBlack{
+  background:#111 !important;
+}
+/* Access Code */
+.accessCodeBar{
+  background:#c6119d !important;
+  color:white !important;
+}
+.link-text{
+  text-decoration: none !important;
+  display: block !important;
+  width:100%;
+}
+.errorMessage{
+  text-align: center;
+  color: white !important;
+  background: #9c0041 !important;
+  padding: 10px !important;
+  font-size: 15px !important;
+  border-radius: 20px;
+  box-shadow: 0px 0px 17px #000000;
+  display: block;
+  width: 100%;
+}
+.claimBtn{
+  border-radius: 20px !important;
+  margin-top: 0px !important;
+  margin-bottom: 0px !important;
+  background:#fff !important;
+  color: #c6119d !important;
+}
+.v-input__append-outer{
+  margin-top:4px !important;
+  margin-bottom: 0px !important;
+}
+
+.headerColor{
+  background: #111236 !important;
+}
+.stockBackground{
+    background: #181747 !important;
+}
+.StockLOGO{
+  background: -webkit-linear-gradient(rgb(196, 0, 245), #0044ff);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-weight: bold;
+  font-size: 30px !important;
+}
+/* Game Banner */
+.GameBannerFont{
+  font-size:60px;
+  text-transform: uppercase;
+  line-height: 60px;
+  background: -webkit-linear-gradient(rgb(196, 0, 245), #0044ff);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.form-card{
+  border:1px solid #242177 !important;
+}
+.SignupText{
+  font-size:18px;
+  text-align: center;
+  font-weight: 300;
+  text-transform: uppercase;
+}
+.SidebarLink{
+  color:#9894ff !important;
+  text-decoration: none !important;
+  font-weight: 500;
+  font-size: 13px !important;
+}
+.customFieldText .v-label{
+  font-size:12px !important;
+}
+.customGameHeading{
+  font-size:50px !important;
+  font-weight: 400 !important;
+  text-transform: uppercase !important;
+}
+
+.v-menu__content{
+  margin-top:50px !important;
+}
+.GameCardColor{
+  background: #242177 !important;
+  border-radius: 20px !important;
+}
+.gameName{
+  color:#fff;
+  font-size:18px;
+  font-weight: 600;
+}
+.GameCardColor .v-card__title{
+  font-weight: 300 !important;
+  font-size:14px;
+  display: block;
+  text-align: center;
+}
+
+.GameCardColor .v-image{
+  border: 20px !important;
+  border-radius: 20px !important;
+}
+.customCarousel{
+  border-radius: 30px;
+}
+.customInnerTitle{
+  text-align:center;
+}
+.customChip
+{
+  background: #232173 !important;
+  border-radius: 8px !important;
+  font-size: 10px !important;
+  height: 16px !important;
+  padding: 14px !important;
+}
+.customChipRed
+{
+  background: #9c0041 !important;
+  border-radius: 8px !important;
+  font-size: 10px !important;
+  height: 16px !important;
+  padding: 14px !important;
+}
+.customChipClaim
+{
+  background: #141344 !important;
+  border-radius: 8px !important;
+  font-size: 10px !important;
+  height: 16px !important;
+  padding: 14px !important;
+}
+.decorationNone{
+  text-decoration: none !important;
+}
+.listLink{
+  color:#555 !important;
+}
+.listLink:hover{
+  color:red !important;
+}
+.customGameButton{
+  background-color: #c6119d !important;
+  border: 3px solid #181747 !important;
+  border-radius: 20px !important;
+  font-size: 11px !important;
+  text-transform: capitalize !important;
+  font-weight: 600 !important;
+  text-transform: uppercase !important;
+  box-shadow: inset 0px 0px 11px 3px #263386;
+  margin:0px auto !important;
+  text-decoration: none !important;
+}
+.homeDvider{
+  padding-top:2px;
+}
+
+.container {
+  max-width:1170px !important;
+}
+
+.container {
+  max-width:1170px !important;
+}
+.customCards{
+    border-radius: 15px !important;
+}
+.dashboardIconPosition{
+    margin-top:-100px;
+    border-radius: 10px !important;
+}
+.customCardTopHeading{
+    font-size:16px;
+    font-weight: 300;
+    color:#444;
+}
+.customCardTopNumber{
+    font-size:25px;
+    font-weight: 900;
+    color:#000;
+    text-align: right;
+}
+.tableDataGameTitle{
+    font-size:13px;
+    vertical-align: baseline;
+    color:#fff;
+}
+.customGradientDarkBg{
+    background-color: #000; /* For browsers that do not support gradients */
+  background-image: linear-gradient(to bottom right, #000, #666);
+}
+.limitedColoumn{
+    max-height: 200px;
+    overflow-y: scroll;
+}
+
+::-webkit-scrollbar {
+    width: 5px;
+    border-radius: 5px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    background: #ebebeb; 
+  }
+   
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: rgb(194, 194, 194); 
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: rgb(150, 150, 150); 
+  }
+  .dataText .text-start{
+    font-size:12.5px !important;
+  }
+
+  .smallText{
+    font-size:12px;
+    text-transform: none !important;
+  }
+  .customField .v-label{
+    font-size:12px;
+  }
+  .logoHeading{
+    font-size:30px;
+  }
+  .dialogBoxTitle{
+    font-size:15px !important;
+    font-weight: 300;
+  }
+
+/*Player SideBar */
+.playerSideBar{
+  background:#111236 !important;
+}
+.profileHeadings{
+  color:#111236 !important;
+  font-size: 15px;
+}
+
+
+
+.ticket {
+  border-radius: 15px;
+  display: inline-block;
+  text-align: left;
+  text-transform: uppercase;
+  width: 100%;
+}
+.ticket.light {
+  background-color: #111236;
+	 color: rgb(255, 255, 255);
+}
+
+.ticket-body {
+  border-bottom: 1px dashed rgb(255, 255, 255);
+  padding: 15px 20px;
+  position: relative;
+}
+.ticket-body p {
+  color: #ffffff;
+  font-size: 12px;
+  margin:0px;
+}
+.ticket-body:before, .ticket-body:after {
+  background-color: rgb(255, 255, 255);
+  border-radius: 100%;
+  content: "";
+  height: 15px;
+  position: absolute;
+  top: 100%;
+  width: 20px;
+}
+.ticket-body:before {
+  left: 0;
+  transform: translate(-70%,-45%);
+}
+.ticket-body:after {
+  right: 0;
+  transform: translate(70%,-45%);
+}
+.disclaimer {
+  color: #ffffff;
+    font-size: 14px;
+    font-style: italic;
+    line-height: 1.25;
+    padding: 5px 20px;
+    text-transform: none;
+}
+.customTicketButton{
+  background-color: #c6119d !important;
+  color:#fff !important;
+  height: 22px !important;
+  box-shadow: none !important;
+  border-radius: 20px !important;
+  font-size: 11px !important;
+  text-transform: capitalize !important;
+  font-weight: 300 !important;
+  margin:0px auto !important;
+  text-decoration: none !important;
+}
+.access_code{
+  color:rgb(255, 255, 255)(111, 0, 255);
+  font-size:20px;
+  font-weight: 500;
+  padding:10px 0px;
+}
+
+.fiveStockHeading{
+  font-size:30px;
+  color:#fff;
+  font-weight: 600;
+  text-align: left;
+}
+
+.valueManager{
+  color:#fff !important;
+  font-size:15px;
+  font-weight: 300;
+  font-weight: bold !important;
+}
+.value-box{
+  padding:10px;
+  background:rgb(14, 5, 39);
+  border-radius: 20px !important;
+}
+.termCondition{
+  color:#fff;
+  font-size:10px !important;
+  text-align: center;
+  font-weight:300 ;
+}
